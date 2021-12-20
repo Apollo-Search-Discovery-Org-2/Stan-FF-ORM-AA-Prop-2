@@ -1,0 +1,32 @@
+# Location Listing Item Clicked
+
+### 
+
+## Javascript Code
+```js
+window.appEventData00000 = window.appEventData00000 || [];;;
+appEventData00000.push({
+  "event": "Location Listing Item Clicked",
+    "listingItemClicked": {
+        "listing": [
+            {
+                "itemPosition": <itemPosition>,
+                "location": {
+                    "locationId": "<locationId>"
+                }
+            }
+        ]
+    }
+});
+```
+
+## Variable Definitions
+
+|Field|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|itemPosition|integer|Integer position of a property within a sorted result. The first returned is position 1. For map results, this value can be the rank by distance from POI.|1, 2, 3, 4, 5||||0|||
+|locationId|string|Unique Identifier of a Location. |155, 65588, 987764448|||||||
+
+
+
+
