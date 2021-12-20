@@ -1,0 +1,24 @@
+# Webinar Registration Completed
+
+### 
+
+## Javascript Code
+```js
+window.appEventData00000 = window.appEventData00000 || [];;;
+appEventData00000.push({
+  "event": "Webinar Registration Completed",
+    "webinar": {
+        "webinarID": "<webinarID>"
+    }
+});
+```
+
+## Variable Definitions
+
+|Field|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|webinarID|string|Unique identifier of the webinar for which a user is registering.  Should match back-end systems for upload of webinar meta data to enhance analysis.|TK-7869, GH-98657|||||||
+
+
+
+
